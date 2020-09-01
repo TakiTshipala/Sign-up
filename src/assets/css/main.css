@@ -574,6 +574,7 @@ iframe,
 embed,
 object {
   display: block;
+  vertical-align: middle;
 }
 
 /**
@@ -1831,8 +1832,8 @@ video {
 
 .bg-brand {
   --bg-opacity: 1;
-  background-color: #01B091;
-  
+  background-color: #01b091;
+  ;
 }
 
 .bg-brand-dark {
@@ -108432,4 +108433,3 @@ video {
             animation: bounce 1s infinite;
   }
 }
-  
