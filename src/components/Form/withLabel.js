@@ -10,7 +10,7 @@ const withLabel = Field => {
                 <Label
                     htmlFor={this.htmlFor}
                     content={this.content}
-                    classes="font-semibold text-sm" />
+                    classes="font-extrabold text-sm" />
                 <Field {...this.props} />
             </div>)
         }
